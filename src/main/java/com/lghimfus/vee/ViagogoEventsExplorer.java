@@ -120,9 +120,8 @@ public class ViagogoEventsExplorer {
                     return new Location(xCoord, yCoord);
                 }
             } catch (Exception e) {
-                System.out.println(e.getMessage() +
-                        " Coordinates values should be integers between -10 and 10."
-                        + " Input q to QUIT.");
+                System.out.println("\n\n" + e.getMessage() 
+                + " Coordinates values should be integers between -10 and 10. Input q to QUIT.,");
             }
             
        } // while
